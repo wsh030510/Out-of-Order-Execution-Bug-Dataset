@@ -4,9 +4,9 @@ This repository contains the dataset for our paper on "Out-of-Order (OOO) Execut
 
 📂 Repository Structure (MGO Taxonomy)
 Our dataset is strictly categorized into three layers based on the triggering level of the concurrency bugs:
-* **[Layer1](./Layer1)**: Micro-Instruction Level (22 Samples). Focuses on pure hardware-sensitive reorderings (Store-Store, Store-Load) in fundamental lock-free data structures (e.g., Spinlocks, Ring Buffers).
-* **[Layer2](./Layer2)**: Resource Lifecycle Level (27 Samples). Focuses on hardware-agnostic and OS-level reorderings, typically manifesting as Use-After-Free (UAF) or Kernel Panics driven by thread scheduling or interrupts (e.g., Linux Kernel, Drivers).
-* **[Layer3](./Layer3)**: Semantic Logic Level (9 Samples). Focuses on complex state machine or protocol disruptions in high-performance distributed systems and networking frameworks (e.g., MySQL, DPDK, sofa-pbrpc).
+* **[Layer1](./Layer1)**: Micro-Instruction Level (32 Samples). Focuses on pure hardware-sensitive reorderings (Store-Store, Store-Load) in fundamental lock-free data structures (e.g., Spinlocks, Ring Buffers).
+* **[Layer2](./Layer2)**: Resource Lifecycle Level (24 Samples). Focuses on hardware-agnostic and OS-level reorderings, typically manifesting as Use-After-Free (UAF) or Kernel Panics driven by thread scheduling or interrupts (e.g., Linux Kernel, Drivers).
+* **[Layer3](./Layer3)**: Semantic Logic Level (2 Samples). Focuses on complex state machine or protocol disruptions in high-performance distributed systems and networking frameworks (e.g., MySQL, DPDK, sofa-pbrpc).
 
 🏷️ Label Definitions
 * **Bug Id**: Our own defined internal reference number for the bug (e.g., L1-01).
