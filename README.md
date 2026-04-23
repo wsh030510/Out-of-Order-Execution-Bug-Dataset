@@ -17,18 +17,18 @@ Our dataset is strictly categorized into three layers based on the triggering le
 * **Resolved**: The date the bug was officially fixed or closed by the developers.
 
 **Layer 1: Micro-Instruction Level**
-| Bug Id | Issue No | Target System | Type | Registered | Resolved |
+| Bug Id | Source | Target System | Type | Registered | Resolved |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | L1-01 | [#123]() | Closed | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
 | L1-02 | [CVE-202X-XXXX]() | Resolved | Store-Store Reordering | Feb 05, 2025 | Feb 10, 2025 |
 
 **Layer 2: Resource Lifecycle Level**
-| Bug Id | Issue No | Target System | Type | Registered | Resolved |
+| Bug Id | Source | Target System | Type | Registered | Resolved |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | L2-01 | [#456]() | Closed | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
 | L2-02 | [#789]() | Resolved | Kernel Panic | Mar 12, 2025 | Mar 15, 2025 |
 
 **Layer 3: Semantic Logic Level**
-| Bug Id | Issue No | Target System | Type | Registered | Resolved |
+| Bug Id | Source | Target System | Type | Registered | Resolved |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | L3-01 | [#999]() | Open | State Machine Error | Apr 01, 2026 | --- |
