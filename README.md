@@ -24,8 +24,7 @@ Our dataset is strictly categorized into three layers based on the triggering le
 | [L1-02](./Layer1/2-DPDK.c) | http://git.dpdk.org/dpdk/tag/?h=v20.11 | DPDK | Store-Store Reordering | Feb 05, 2025 | Feb 10, 2025 |
 | [L1-03](./Layer1/3-seL4-dynamic.c) | https://github.com/seL4/seL4/pull/199/commits/8ba22dcdc5fa667b41db6eb80b434 21a84868398 | sel4 | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
 | [L1-04](./Layer1/4-MySQL.c) | https://bugs.mysql.com/file.php?id=28180&bug_id=94699&text=1 | MySQL | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-05](./Layer1/5-StackOverflowEasy.c) | http://stackoverflow:com/questions/16159203/
- | General Testing | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
+| [L1-05](./Layer1/5-StackOverflowEasy.c) | http://stackoverflow:com/questions/16159203/| General Testing | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
 | [L1-06](./Layer1/6-ompi.c) | https://github.com/open-mpi/ompi/issues/8274 | Open MPI | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
 | [L1-07](./Layer1/7-OpenBLAS.c) | https://github.com/OpenMathLib/OpenBLAS/issues/2444 | OpenBLAS | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
 | [L1-08](./Layer1/8-CVE-2020-11739-Xen.c) | https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11739 | Xen | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
@@ -33,12 +32,10 @@ Our dataset is strictly categorized into three layers based on the triggering le
 | [L1-10](./Layer1/10-ceph.c) | https://github.com/ceph/ceph/pull/38765 | Ceph | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
 | [L1-11](./Layer1/11-MariaDBEasy.c) | https://github.com/MariaDB/server/pull/1952/commits | MariaDB | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
 | [L1-12](./Layer1/12-DragonWell8Easy.cpp) | https://bugs.openjdk.org/browse/JDK-8154750 | JDK | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-13](./Layer1/13-JDK.c) | https://bugs.openjdk.org/browse/JDK-8221584
- | JDK | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
+| [L1-13](./Layer1/13-JDK.c) | https://bugs.openjdk.org/browse/JDK-8221584| JDK | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
 | [L1-14](./Layer1/14-libfabric.c) | https://github.com/ofiwg/libfabric/pull/9370 | libfabric | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
 | [L1-15](./Layer1/15-openmpi.c) | https://github.com/open-mpi/ompi/pull/771/files | Open MPI | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-16](./Layer1/16-includeos.c) | https://github.com/includeos/IncludeOS/pull/1926/files
- | IncludeOS | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
+| [L1-16](./Layer1/16-includeos.c) | https://github.com/includeos/IncludeOS/pull/1926/files| IncludeOS | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
 | [L1-17](./Layer1/17-mysql.c) | https://bugs.mysql.com/bug.php?id=87293 | MySQL | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
 | [L1-18](./Layer1/18-JDK-8179954.c) | https://bugs.openjdk.org/browse/JDK-8179954 | JDK | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
 | [L1-19](./Layer1/19-ompi.cpp) | https://github.com/open-mpi/ompi/pull/5536 | Open MPI | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
