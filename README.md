@@ -1,4 +1,4 @@
-MGO-OOO-Bugs: A Benchmark of Multi-Granularity Out-of-Order Concurrency Bugs﻿
+**MGO-OOO-Bugs**: A Benchmark of Multi-Granularity Out-of-Order Concurrency Bugs﻿
 
 This repository contains the dataset for our paper on "Out-of-Order (OOO) Execution Bugs" under Weak Memory Models (WMM). We propose a Multi-Granularity Ordering (MGO) taxonomy and collect 58 OOO bug samples across different system abstraction layers.
 
@@ -16,19 +16,19 @@ Our dataset is strictly categorized into three layers based on the triggering le
 * **Registered**: The date the bug was initially reported or raised by the community.
 * **Resolved**: The date the bug was officially fixed or closed by the developers.
 
-###Layer 1: Micro-Instruction Level
+**Layer 1: Micro-Instruction Level**
 | Bug Id | Issue No | Target System | Type | Registered | Resolved |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | L1-01 | [#123]() | Closed | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
 | L1-02 | [CVE-202X-XXXX]() | Resolved | Store-Store Reordering | Feb 05, 2025 | Feb 10, 2025 |
 
-###Layer 2: Resource Lifecycle Level
+**Layer 2: Resource Lifecycle Level**
 | Bug Id | Issue No | Target System | Type | Registered | Resolved |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | L2-01 | [#456]() | Closed | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
 | L2-02 | [#789]() | Resolved | Kernel Panic | Mar 12, 2025 | Mar 15, 2025 |
 
-###Layer 3: Semantic Logic Level
+**Layer 3: Semantic Logic Level**
 | Bug Id | Issue No | Target System | Type | Registered | Resolved |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | L3-01 | [#999]() | Open | State Machine Error | Apr 01, 2026 | --- |
