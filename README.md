@@ -10,8 +10,25 @@ Our dataset is strictly categorized into three layers based on the triggering le
 
 🏷️ Label Definitions
 * **Bug Id**: Our own defined internal reference number for the bug (e.g., L1-01).
-* **Issue No**: The official bug tracking number, CVE ID, or discussion thread (e.g., GitHub issue #XXXXX).
+* **Source**: The source of the vulnerability or the submission number of the vulnerability.
 * **Status**: The current resolution status of the bug in its original repository.
 * **Type**: The specific manifestation or category of the concurrency error (e.g., UAF, Deadlock, Store-Load reordering).
 * **Registered**: The date the bug was initially reported or raised by the community.
 * **Resolved**: The date the bug was officially fixed or closed by the developers.
+
+### 🔬 Layer 1: Micro-Instruction Level
+| Bug Id | Issue No | Status | Type | Registered | Resolved |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| L1-01 | [#123]() | Closed | Store-Load Reordering | Jan 10, 2025 | Jan 15, 2025 |
+| L1-02 | [CVE-202X-XXXX]() | Resolved | Store-Store Reordering | Feb 05, 2025 | Feb 10, 2025 |
+
+### 🛠️ Layer 2: Resource Lifecycle Level
+| Bug Id | Issue No | Status | Type | Registered | Resolved |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| L2-01 | [#456]() | Closed | Use-After-Free (UAF) | Nov 20, 2024 | Dec 01, 2024 |
+| L2-02 | [#789]() | Resolved | Kernel Panic | Mar 12, 2025 | Mar 15, 2025 |
+
+### 🌐 Layer 3: Semantic Logic Level
+| Bug Id | Issue No | Status | Type | Registered | Resolved |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| L3-01 | [#999]() | Open | State Machine Error | Apr 01, 2026 | --- |
