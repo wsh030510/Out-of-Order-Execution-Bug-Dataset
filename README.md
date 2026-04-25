@@ -20,37 +20,37 @@ Our dataset is strictly categorized into three layers based on the triggering le
 
 | Bug Id | Source | Target System | Type | Registered | Resolved |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [L1-01](./Layer1/1-Linuxeasy.c) | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=95bcade33a8a | Linux Kernel | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-02](./Layer1/2-DPDK.c) | http://git.dpdk.org/dpdk/tag/?h=v20.11 | DPDK | Consistency Violation | Feb 05, 2025 | Feb 10, 2025 |
-| [L1-03](./Layer1/3-seL4-dynamic.c) | https://github.com/seL4/seL4/pull/199/commits/8ba22dcdc5fa667b41db6eb80b43421a84868398 | sel4 | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-04](./Layer1/4-MySQL.c) | https://bugs.mysql.com/file.php?id=28180&bug_id=94699&text=1 | MySQL | Inconsistent View | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-05](./Layer1/5-StackOverflowEasy.c) | http://stackoverflow:com/questions/16159203/| General Testing | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-06](./Layer1/6-ompi.c) | https://github.com/open-mpi/ompi/issues/8274 | Open MPI | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-07](./Layer1/7-OpenBLAS.c) | https://github.com/OpenMathLib/OpenBLAS/issues/2444 | OpenBLAS | Inconsistent View | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-08](./Layer1/8-CVE-2020-11739-Xen.c) | https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11739 | Xen | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-09](./Layer1/9-CVE-2020-25603-Xen.c) | https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25603 | Xen | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-10](./Layer1/10-ceph.c) | https://github.com/ceph/ceph/pull/38765 | Ceph | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-11](./Layer1/11-MariaDBEasy.c) | https://github.com/MariaDB/server/pull/1952/commits | MariaDB | Inconsistent View | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-12](./Layer1/12-DragonWell8Easy.cpp) | https://bugs.openjdk.org/browse/JDK-8154750 | JDK | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-13](./Layer1/13-JDK.c) | https://bugs.openjdk.org/browse/JDK-8221584| JDK | Inconsistent View | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-14](./Layer1/14-libfabric.c) | https://github.com/ofiwg/libfabric/pull/9370 | libfabric | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-15](./Layer1/15-openmpi.c) | https://github.com/open-mpi/ompi/pull/771/files | Open MPI | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-16](./Layer1/16-includeos.c) | https://github.com/includeos/IncludeOS/pull/1926/files| IncludeOS | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-17](./Layer1/17-mysql.c) | https://bugs.mysql.com/bug.php?id=87293 | MySQL | Inconsistent View | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-18](./Layer1/18-JDK-8179954.c) | https://bugs.openjdk.org/browse/JDK-8179954 | JDK | Consistency Violation | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-19](./Layer1/19-ompi.cpp) | https://github.com/open-mpi/ompi/pull/5536 | Open MPI | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
+| [L1-01](./Layer1/1-Linuxeasy.c) | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=95bcade33a8a | Linux Kernel | Unsafe Publication | Feb 13, 2018 | Feb 13, 2018 |
+| [L1-02](./Layer1/2-DPDK.c) | http://git.dpdk.org/dpdk/tag/?h=v20.11 | DPDK | Consistency Violation | Nov 27, 2020 | Nov 27, 2020 |
+| [L1-03](./Layer1/3-seL4-dynamic.c) | https://github.com/seL4/seL4/pull/199/commits/8ba22dcdc5fa667b41db6eb80b43421a84868398 | sel4 | Unsafe Publication | Jun 22, 2020 | Jun 22, 2020 |
+| [L1-04](./Layer1/4-MySQL.c) | https://bugs.mysql.com/file.php?id=28180&bug_id=94699&text=1 | MySQL | Inconsistent View | Jan 30, 2019 | Mar 04, 2019 |
+| [L1-05](./Layer1/5-StackOverflowEasy.c) | http://stackoverflow.com/questions/16159203/| General Testing | Unsafe Publication | Apr 23, 2013 | May 01, 2013 |
+| [L1-06](./Layer1/6-ompi.c) | https://github.com/open-mpi/ompi/issues/8274 | Open MPI | Unsafe Publication | Dec 8, 2020 | Dec 11, 2020 |
+| [L1-07](./Layer1/7-OpenBLAS.c) | https://github.com/OpenMathLib/OpenBLAS/issues/2444 | OpenBLAS | Inconsistent View | Feb 25, 2020 | Apr 14, 2020 |
+| [L1-08](./Layer1/8-CVE-2020-11739-Xen.c) | https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11739 | Xen | Unsafe Publication | Apr 14, 2020 | Jul 13, 2020 |
+| [L1-09](./Layer1/9-CVE-2020-25603-Xen.c) | https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25603 | Xen | Unsafe Publication | Sep 23, 2020 | Nov 11, 2020 |
+| [L1-10](./Layer1/10-ceph.c) | https://github.com/ceph/ceph/pull/38765 | Ceph | Unsafe Publication | Jan 05, 2021 | Jan 13, 2021 |
+| [L1-11](./Layer1/11-MariaDBEasy.c) | https://github.com/MariaDB/server/pull/1952/commits | MariaDB | Inconsistent View | Nov 30, 2021 | Nov 30, 2021 |
+| [L1-12](./Layer1/12-DragonWell8Easy.cpp) | https://bugs.openjdk.org/browse/JDK-8154750 | JDK | Unsafe Publication | Apr 20, 2016 | Jun 02, 2016 |
+| [L1-13](./Layer1/13-JDK.c) | https://bugs.openjdk.org/browse/JDK-8221584| JDK | Inconsistent View | Mar 27, 2019 | Apr 08, 2019 |
+| [L1-14](./Layer1/14-libfabric.c) | https://github.com/ofiwg/libfabric/pull/9370 | libfabric | Unsafe Publication | Sep 27, 2023 | Sep 27, 2023 |
+| [L1-15](./Layer1/15-openmpi.c) | https://github.com/open-mpi/ompi/pull/771/files | Open MPI | Unsafe Publication | Aug 05, 2015 | Aug 05, 2015 |
+| [L1-16](./Layer1/16-includeos.c) | https://github.com/includeos/IncludeOS/pull/1926/files| IncludeOS | Unsafe Publication | Oct 04, 2018 | Oct 04, 2018 |
+| [L1-17](./Layer1/17-mysql.c) | https://bugs.mysql.com/bug.php?id=87293 | MySQL | Inconsistent View | Aug 03, 2017 | Oct 10, 2017 |
+| [L1-18](./Layer1/18-JDK-8179954.c) | https://bugs.openjdk.org/browse/JDK-8179954 | JDK | Consistency Violation | May 09, 2017 | May 16, 2017 |
+| [L1-19](./Layer1/19-ompi.cpp) | https://github.com/open-mpi/ompi/pull/5536 | Open MPI | Unsafe Publication | Aug 14, 2018 | Aug 14, 2018 |
 | [L1-20](./Layer1/20-barrier.cpp) | / | General Testing | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-21](./Layer1/21-crossbeam.c) | https://github.com/crossbeam-rs/crossbeam/issues/859 | Crossbeam | Inconsistent View | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-22](./Layer1/22-MariaDB.c) | https://bugs.mysql.com/bug.php?id=76135 | MariaDB | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-23](./Layer1/23-mcs.c) | http://patches.dpdk.org/patch/75983/ | DPDK | Consistency Violation | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-24](./Layer1/24-mysql_rwlock_deadlock.c) | https://bugs.mysql.com/bug.php?id=94699 | MySQL | Inconsistent View | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-25](./Layer1/25-mysql_volatile_bug.c) | https://bugs.mysql.com/bug.php?id=74833 | MySQL | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-26](./Layer1/26-mysql-99556.c) | https://bugs.mysql.com/bug.php?id=99556 | MySQL | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-27](./Layer1/27-mysql-ut-realx.c) | https://bugs.mysql.com/bug.php?id=74832 | MySQL | Inconsistent View | Jan 10, 2025 | Jan 15, 2025 |
+| [L1-21](./Layer1/21-crossbeam.c) | https://github.com/crossbeam-rs/crossbeam/issues/859 | Crossbeam | Inconsistent View | Jul 06, 2022 | Feb 14, 2024 |
+| [L1-22](./Layer1/22-MariaDB.c) | https://bugs.mysql.com/bug.php?id=76135 | MariaDB | Unsafe Publication | Mar 3, 2015 | Aug 12, 2015 |
+| [L1-23](./Layer1/23-mcs.c) | http://patches.dpdk.org/patch/75983/ | DPDK | Consistency Violation | Aug 26, 2020 | Feb 10, 2021 |
+| [L1-24](./Layer1/24-mysql_rwlock_deadlock.c) | https://bugs.mysql.com/bug.php?id=94699 | MySQL | Inconsistent View | Mar 19, 2019 | Mar 28, 2019 |
+| [L1-25](./Layer1/25-mysql_volatile_bug.c) | https://bugs.mysql.com/bug.php?id=74833 | MySQL | Unsafe Publication | Nov 13, 2014 | May 11, 2015 |
+| [L1-26](./Layer1/26-mysql-99556.c) | https://bugs.mysql.com/bug.php?id=99556 | MySQL | Unsafe Publication | May 13, 2020 | May 15, 2020 |
+| [L1-27](./Layer1/27-mysql-ut-realx.c) | https://bugs.mysql.com/bug.php?id=74832 | MySQL | Inconsistent View | Nov 13, 2014 | Jan 05, 2016 |
 | [L1-28](./Layer1/28-pso_test.c) | / | General Testing | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-29](./Layer1/29-sofa_pbrpc_hang.c) | https://github.com/baidu/sofa-pbrpc/issues/240 | sofa-pbrpc | Consistency Violation | Jan 10, 2025 | Jan 15, 2025 |
+| [L1-29](./Layer1/29-sofa_pbrpc_hang.c) | https://github.com/baidu/sofa-pbrpc/issues/240 | sofa-pbrpc | Consistency Violation | May 20, 2020 | May 20, 2020 |
 | [L1-30](./Layer1/30-tso_test.c) | / | General Testing | Consistency Violation | Jan 10, 2025 | Jan 15, 2025 |
-| [L1-31](./Layer1/31-unsafe_publish.c) | https://stackoverflow.com/questions/16159203/why-does-this-java-program-terminate-despite-that-apparently-it-shouldnt-and-d | General Testing | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
+| [L1-31](./Layer1/31-unsafe_publish.c) | https://stackoverflow.com/questions/16159203/why-does-this-java-program-terminate-despite-that-apparently-it-shouldnt-and-d | General Testing | Unsafe Publication | Apr 23, 2013 | May 1, 2013 |
 | [L1-32](./Layer1/32-datarace.cpp) | / | General Testing | Unsafe Publication | Jan 10, 2025 | Jan 15, 2025 |
 
 **Layer 2: Resource Lifecycle Level**
