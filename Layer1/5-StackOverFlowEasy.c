@@ -1,4 +1,4 @@
-////http://stackoverflow:com/questions/16159203/
+////http://stackoverflow.com/questions/16159203/
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
