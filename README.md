@@ -1,4 +1,4 @@
-**MGO-OOO-Bugs**: A Benchmark of Multi-Granularity Ordering-Related-Concurrency-Bugs﻿
+**MGO-Ordering-Related-Concurrency-Bugs**: A Benchmark of Multi-Granularity Ordering-Related-Concurrency-Bugs﻿
 
 This repository contains the dataset for our paper on "Ordering-Related-Concurrency-Bugs" under Weak Memory Models (WMM). We propose a Multi-Granularity Ordering (MGO) taxonomy and collect 58 Ordering-Related-Concurrency-Bugs samples across different system abstraction layers.
 
